@@ -32,6 +32,24 @@
         font-size: 16px;
         color:#e7e7e7
     }
+
+    .btn{
+        padding:20px 30px;
+        background:#b68c5a;
+        font-weight: 600;
+        font-size: 20px;
+        border-radius: 8px;
+    }
+    input[type="text"]{
+        height: 64px;
+        width: 500px;
+    }
+  #banner-input input[type=text]::placeholder {
+     color:#a0a0a0;
+    padding-left:10px;
+}
+
+     
   </style>
   <body class="container">
    
@@ -71,7 +89,9 @@
              <div class="text-center text-white w-50">
                 <h1 class="text-white display-3">We Provide Effective </h1> <h1 class="display-3">Legal Solutions</h1>
                 <p class="style-para">There is not only one solution to a problem. At times a problem may have numerous ways by which it could be solved. So primarily, evaluate all the possible solutions. And then go for the best one. </p>
-                
+                <div id="banner-input">
+                    <input type="text" placeholder="Search your services" >  <input type="button" value="Search" class="btn btn-primary"> 
+              
              </div>
             </div>
           </section>
