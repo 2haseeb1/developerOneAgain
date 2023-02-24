@@ -53,7 +53,27 @@
     padding-left:10px;
 }
 
-     
+  /* carousel section styling */ 
+  .carousel-item-1 {
+    max-height:500px;
+    background-image:url('./images/slider-1.jpg');
+    background-repeat: no-repeat;
+    
+  }
+  .carousel-item-2 {
+    max-height:500px;
+    background-image:url('./images/slider-2.jpg');
+    background-repeat: no-repeat;
+
+  }
+  .carousel-item-3 {
+    max-height:500px;
+    background-image:url('./images/slider-3.jpg');
+    background-repeat: no-repeat;
+
+  }
+  
+
   </style>
   <body class="container">
    
@@ -197,7 +217,49 @@
                   </div>
                
             </section>
+         <!-- client secction -->
+         <section>
+          <div class="client w-50 mx-auto text-center mt-5 pt-5">
+          <h1 class="text-title fw-bold">What Our Clients Say</h1>
+          <p class="text-center">We believe that the strongest proof we can present of us delivering on our service promises, is that real customers are willing to share positive words with others.</p>
+
+          </div>
+          <!-- carousel section -->
+          <section>
+            <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+              <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+              </div>
+              <div class="carousel-inner">
+                <div class="carousel-item carousel-item-1 active" style="max-height:400px;url('./images/slider-1.jpg')">
+                <!--  <img src="./images/slider-1.jpg" class="d-block w-100" alt="..."> -->
+                </div>
+                <div class="carousel-item 
+                carousel-item-2">
+                 <img src="./images/slider-2.jpg" class="d-block w-100" alt="...">
+                </div> 
+                <div class="carousel-item 
+                carousel-item-3" >
+                  <img src="./images/slider-3.jpg" class="d-block w-100" alt="..."> 
+                </div>
+              </div>
+              <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
           </section>
+          
+         </section>
+
+          </section>
+
       </header>
     
        <!-- bootstrap js file -->
